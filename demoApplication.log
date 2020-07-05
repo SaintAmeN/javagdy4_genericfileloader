@@ -1,1 +1,86 @@
 2020-07-05 11:06:59,441 [main] INFO  com.sda.javagdy4.genericquestionnaire.FileLoader  - {1={content=Czy lubisz koty?}, 2={content=Czy lubisz psy?}}
+2020-07-05 11:29:38,078 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:29:43,121 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 1 -> {content=Czy lubisz koty?}
+2020-07-05 11:29:43,121 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 2 -> {content=Czy lubisz psy?}
+2020-07-05 11:29:43,121 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:46:17,177 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:46:20,487 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 1 -> {content=Czy lubisz koty?}
+2020-07-05 11:46:20,487 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 2 -> {content=Czy lubisz psy?}
+2020-07-05 11:46:20,487 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:46:30,821 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:46:34,751 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 1 -> {content=Czy lubisz koty?}
+2020-07-05 11:46:34,751 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 2 -> {content=Czy lubisz psy?}
+2020-07-05 11:46:34,752 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 3 -> {content=Czy SDA to dobra uczelnia? }
+2020-07-05 11:46:34,752 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:46:56,635 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:47:02,371 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 1 -> {content=Czy lubisz koty?}
+2020-07-05 11:47:02,373 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 2 -> {content=Czy lubisz psy?}
+2020-07-05 11:47:02,373 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 3 -> {content=Czy aby na pewno?}
+2020-07-05 11:47:02,373 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:11:12,095 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:11:16,294 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 1 -> {content=Czy lubisz koty?}
+2020-07-05 12:11:16,294 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 2 -> {content=Czy lubisz psy?}
+2020-07-05 12:11:16,294 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - 3 -> {content=Czy aby na pewno?}
+2020-07-05 12:11:16,294 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:11:41,825 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:11:46,267 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:12:40,864 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:13:23,830 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:14:40,167 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:14:52,175 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:14:53,916 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz psy?}
+2020-07-05 12:14:55,853 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy aby na pewno?}
+2020-07-05 12:14:57,455 [main] ERROR com.sda.javagdy4.genericquestionnaire.FileLoader  - Error while loading json file: odpowiedzi.json : 
+java.io.FileNotFoundException: odpowiedzi.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:916)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+	at com.sda.javagdy4.genericquestionnaire.FileLoader.load(FileLoader.java:28)
+	at com.sda.javagdy4.genericquestionnaire.Main.handleQuestionnaire(Main.java:48)
+	at com.sda.javagdy4.genericquestionnaire.Main.main(Main.java:27)
+2020-07-05 12:16:20,788 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:16:24,331 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:16:25,757 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz psy?}
+2020-07-05 12:16:26,370 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy aby na pewno?}
+2020-07-05 12:16:27,457 [main] ERROR com.sda.javagdy4.genericquestionnaire.FileLoader  - Error while loading json file: odpowiedzi.json : 
+java.io.FileNotFoundException: odpowiedzi.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:916)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+	at com.sda.javagdy4.genericquestionnaire.FileLoader.load(FileLoader.java:28)
+	at com.sda.javagdy4.genericquestionnaire.Main.handleQuestionnaire(Main.java:51)
+	at com.sda.javagdy4.genericquestionnaire.Main.main(Main.java:28)
+2020-07-05 12:16:27,489 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:17:14,120 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:17:17,140 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:17:18,745 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz psy?}
+2020-07-05 12:17:19,405 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy aby na pewno?}
+2020-07-05 12:17:19,970 [main] ERROR com.sda.javagdy4.genericquestionnaire.FileLoader  - Error while loading json file: odpowiedzi.json : 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (File); line: 9, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1840)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:712)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:637)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2020)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1671)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1029)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject(UntypedObjectDeserializer.java:873)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:654)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBind(MapDeserializer.java:465)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:367)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:29)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+	at com.sda.javagdy4.genericquestionnaire.FileLoader.load(FileLoader.java:28)
+	at com.sda.javagdy4.genericquestionnaire.Main.handleQuestionnaire(Main.java:51)
+	at com.sda.javagdy4.genericquestionnaire.Main.main(Main.java:28)
+2020-07-05 12:17:20,012 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:18:10,154 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:18:13,375 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:18:17,094 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz psy?}
+2020-07-05 12:18:17,956 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Question: {content=Czy aby na pewno?}
+2020-07-05 12:18:18,572 [main] INFO  com.sda.javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:

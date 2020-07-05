@@ -33,4 +33,16 @@ public class FileLoader<T> {
         }
         throw new LoaderException("Unable to load json file.");
     }
+
+    public void save(Map<Long, T> map){
+        Optional<String> stringOptional = Loadable.getLoadableFilePath(tclass);
+        if (stringOptional.isPresent()) {
+            String path = stringOptional.get();
+            try {
+                objectMapper.writeValue(new File(path), map);
+            } catch (IOException e) {
+                log.error("Error while saving json file: " + path + " : ", e);
+            }
+        }
+    }
 }

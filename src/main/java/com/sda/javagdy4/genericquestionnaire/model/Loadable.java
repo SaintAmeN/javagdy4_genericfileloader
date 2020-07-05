@@ -9,7 +9,7 @@ public class Loadable {
 
     static {
         MAPPED_FILES.put(Question.class, "pytania.json");
-//        MAPPED_FILES.put(Answers.class, "odpowiedzi.json");
+        MAPPED_FILES.put(Questionnaire.class, "odpowiedzi.json");
     }
 
     public static Optional<String> getLoadableFilePath(Class<?> tclass){
