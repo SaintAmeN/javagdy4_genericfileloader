@@ -68,16 +68,18 @@ public class Main {
 
     private static void handleAddQuestion(String command) {
         FileLoader<Question> questionFileLoader = new FileLoader<>(Question.class);
+        // addQuestion 50 Czy to zadanie jest trudne?
         String[] words = command.split(" ", 3);
         Long questionIdentifier = Long.valueOf(words[1]);
         String questionContent = words[2];
 
-        Question question = new Question(questionContent);
+        Question question = new Question(questionContent);      // nowe pytanie
 
+        // załadowanie istniejących pytań ( z pliku )
         Map<Long, Question> questionsFromFile = questionFileLoader.load();
         questionsFromFile.put(questionIdentifier, question);
 
-        questionFileLoader.save(questionsFromFile);
+        questionFileLoader.save(questionsFromFile); // zapis starych pytań + nowego pytania
     }
 
     private static void handleLoadAndPrintQuestions() {
